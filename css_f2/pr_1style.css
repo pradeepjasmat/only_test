@@ -1,0 +1,641 @@
+*{
+padding:0;
+margin:0;
+}
+body,html{
+padding:0;
+margin:0;
+
+
+}
+/* ------------------- container styles start ------------------- */
+.container {
+  width: 100%;
+  height: 901px;
+  background-image: url("../img_2/banner_ (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; /* Or top center, bottom center */
+  color: blue;
+}
+/* ------------------- logo styles start ------------------- */
+
+.logo{
+	float:left;
+	margin-left:60px;
+	margin-top:50px;
+	padding:10px;
+	
+	width:20%;
+	
+}
+
+.logo h2{
+	float:right;
+	line-height:40px;
+color:#222;	
+}
+/* ------------------- logo styles end ------------------- */
+
+/* ------------------- nav  style start  ------------------- */
+
+nav{
+	
+	float:right;
+	margin-right:10px;
+	margin-top:70px;
+	
+	height:40px;
+}
+nav ul li{
+	display:inline;
+	list-style-type:none;
+	line-height:20px;
+	padding:15px;
+}
+nav ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:19px;
+	font-weight:200;
+	color:#333;
+	font-family:math;
+}
+.call{
+	color:orange;
+	
+}
+/* ------------------- nav style end  ------------------- */
+/* ------------------- banner content box style start  ------------------- */
+
+
+.content-box1 p{
+	margin-top:12px;
+}
+/* ------------------- banner content box style end  ------------------- */
+
+/* ------------------- all styles start ------------------- */
+button{
+	width:100px;
+	height:40px;
+	padding:5px;
+	background-color:#ffb607;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+	text-transform:uppercase;
+}
+/* ------------------- all button style end  ------------------- */
+/* ------------------- banner button style start  ------------------- */
+	
+#btn{
+display:block;
+margin-top:480px;
+
+}
+/* ------------------- banner button style end  ------------------- */
+
+/* ------------------- container styles end ------------------- */
+
+/* ------------------- service styles start ------------------- */
+
+.service{
+width:100%;
+height:590px;
+font-family: "Open Sans";
+background-color:#ffffff;
+}	
+.content-box-2 p{
+	margin-top:12px;
+}
+.card_1{
+	height:300px;
+	width:200px;
+	
+	display:inline-block;
+	padding:10px;
+	margin-left:70px;
+	text-align:center;
+	align-items:center;
+	
+}
+.card_1 img{
+	width:96px;
+	height:84px;
+}
+.card1 h2,p{
+	padding:10px;
+}
+#btn_1{
+	margin-top:20px;
+}
+/* ------------------- service styles end ------------------- */
+
+/* ------------------- about styles start ------------------- */
+
+.about{
+	height:500px;
+	width:100%;
+	background-color:#ffb607;
+}
+
+
+.about img{
+	width:547px;
+	height:300px;
+	float:right;
+	margin:60px 70px 0px 0px;
+	rotate: -10deg;
+	
+	
+}
+.pk{
+	float:left;
+	margin-top:50px;
+	
+	width:450px;
+	height:315px;
+	margin-left:50px;
+	padding:20px;
+	word-spacing:5px;	
+}
+.pk p{
+	letter-spacing:2px;
+	margin:20px 0px 20px;
+	color:#fff;
+}
+.pk h2{
+	color:#fff;
+	margin-left:8px;
+	padding:5px;
+}
+#btn_2{
+	background-color:#000;
+}
+/* ------------------- about styles start ------------------- */
+/* ------------------- furnitures section styles ------------------- */
+.furnitures{
+	background-color:#fff;
+	width:100%;
+	height:auto;
+	
+}
+
+.furniture-item {
+    width: 300px;
+	display:inline-block;
+   /* space around the element */
+    
+	padding:20px;
+	
+	margin:50px 100px 0px;
+}
+
+.furniture-item img {
+    max-width: 450px;
+    height: 257px;
+	margin-bottom:10px;
+}
+.furniture-item h3{
+	margin:10px 0px 10px;
+	color:orange;
+}
+/* ------------------- furnitures section styles end ------------------- */
+
+/* ------------------- who section styles ------------------- */
+.who{
+	 width:100%;
+	 height:300px;
+	 background-image: url("../img_2/who_1.jpg");
+	 background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+  
+}
+/* ------------------- who section end ------------------- */
+
+/* ------------------- projects section styles start ------------------- */
+
+.projects{
+	width:100%;
+	
+	height:350px;
+	position:relative;
+	background-color:white;
+	
+}
+.project-slider{
+	display:flex;
+	padding:5px;
+	width:900px;
+	margin-left:150px;
+	margin-top:20px;
+	
+	justify-content:space-around;
+	
+}
+
+	
+.projects img{
+	width:250px;
+	height:300px;
+	
+}
+.projects h2{
+	justify-items:center;
+	text-align:center;
+	justify-content:center;
+	margin:0px 0px 20px;
+}
+.projects p{
+	position:relative;
+	color:white;
+	margin-top:-30%;
+	align-items:center;
+	text-align:center;
+}
+	
+.projects button {
+    
+    top: 50%;
+	position:absolute;
+    transform: translateY(-50%);
+    background: #000;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+#th{
+	background-color:#fff;
+	color:#000;
+}
+/* ------------------- projects section styles end ------------------- */
+
+/* ------------------- testimonials section styles ------------------- */
+
+#testimonials {
+    padding: 40px 20px;
+    text-align: center;
+	width:100%;
+	height:400px;
+	background-color:#fff;
+	
+   position:relative;
+   margin-top:10px;
+}
+
+
+
+
+
+.testimonial-item1 .testimonial-item2 h4,
+.testimonial-item1 .testimonial-item2 p {
+    line-height: 50px;
+   
+	background-color:blue;
+    padding: 5px;
+    float: left;
+}
+.testimonial-item1 h4,
+.testimonial-item2 h4
+{
+	margin-top:-10px;
+	margin-left:20px;
+	
+}
+.testimonial-item1 p,
+ .testimonial-item2 p{
+	display:inline-block;
+	margin-top:60px;
+	margin-left:-70px;
+	
+	justify-content:start;
+	
+	
+	
+}
+
+.testimonial-item1,
+.testimonial-item2 {
+    width: 700px;
+    height: 100px;
+    display: flex;          
+    align-items: center;    
+}
+
+.testimonial-item1 {
+    float: left;
+   
+}
+
+.testimonial-item2 {
+    
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+/* -------------------testimonial  image  style start ------------------- */
+
+.testimonial-item1 img,
+.testimonial-item2 img {
+    width: 100px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+/* -------------------testimonial  image  style end------------------- */
+
+
+/* -------------------tree dotted  style start ------------------- */
+
+.doted1{
+	float:left;
+	width:80px;
+	height:30px;
+	margin-left:30px;
+	margin-top:100px;
+	
+
+}
+.doted1 span{
+	background-color:#ffb607;font-size:24px;font-weight:400;color:#fff;width:5px;height:5px;
+	
+	display:inline-block;
+	
+     border-radius:90%;
+    padding:2px;
+margin-left:5px;
+}
+
+/* -------------------tree dotted  style end ------------------- */
+
+/* ------------------- testimonials section styles end ------------------- */
+
+/* ------------------- all common box style  section start ------------------- */
+.common-style {
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    color: #444;
+    padding: 12px;
+}
+/* ------------------- all comman box stayle end  ------------------- */
+
+/* ------------------- this is service & furnitures box content style start ------------------- */
+.content-box-2
+ {
+    display: block;
+    margin-top: 88px;
+	
+}
+/* ------------------- this is service & furnitures  box content style end ------------------- */
+
+/* ------------------- this is banner box content style start ------------------- */
+
+
+.content-box1 {
+    display: inline-block;
+    margin-top: 102px;
+}
+/* ------------------- this is banner box content style end ------------------- */
+
+/* ------------------- who  box content style start ------------------- */
+
+
+.content-box-3 {
+    width: 100%;
+    height: 300px;
+	position:relative;
+    
+    color: #fff; 
+    display: block;
+	
+}
+.content-box-3 p{
+	width:400px;
+}
+/* ------------------- who  box content style end ------------------- */
+
+/* ------------------- TESTIMONIALS content style start ------------------- */
+.content-box-4 {
+    display: block;
+    margin-bottom: 30px;
+}
+/* ------------------- TESTIMONIALS content style end ------------------- */
+
+
+/* ------------------- Conteact  style start ------------------- */
+
+
+.contact{
+	width:100%;
+	height:830px;
+	background-image:url("../img_2/contact_imgbg.jpg");
+	background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+    opacity: 0.7;
+
+ 
+}
+/* -------------------cont class  image  style start ------------------- */
+
+
+.cont img{
+	width:400px;
+	height:200px;
+   position:absolute;
+   float:right;
+   display:inline-block;
+   margin-left:100%;
+   margin-top:-50%;
+   
+}
+/* -------------------cont class  image  style end ------------------- */
+
+.cont{
+	width:500px;
+	height:300px;
+	display:inline-block;
+	float:left;
+	position:relative;
+	/*margin:50px 0px 20px 100px;*/
+	padding:10px;
+	
+}
+.pr{
+	width:100%;
+	height:400px;
+	
+}
+.cont h2{
+	float:left;
+	margin-left:38%;
+	
+}
+.form-element {
+  margin-top: 15px;
+  float:right;
+  
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea  {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-left: 8px;
+}
+textarea {
+  height: 60px; /* example for larger textarea */
+}
+
+
+.error {
+  display: none;
+  color: red;
+  font-size: 13px;
+  margin-left: 125px;
+}
+
+
+input[type="submit"] {
+    margin-top: 8%;
+    margin-left: 38%;
+    border: none;
+    background: none;
+    padding: 0;
+    color: #fff;     
+    font: inherit;       
+    cursor: pointer;    
+    outline: none;       
+}
+
+
+.info {
+  width: 100%;
+  height: 400px;
+  
+  position:absolute;
+  background-color: rgba(3,3,3,0.9);
+  display: flex;                 
+  justify-content: space-around; 
+  align-items: center;         
+  padding: 15px;
+  color: #fff;
+}
+
+.footer-content {
+  width: 180px;
+  height: 300px;
+  display: inline-block;      
+
+  
+  justify-items:baseline;
+  margin-top:5px;
+}
+.footer-content h1,h4,p{
+	 	
+	margin-top:10px;
+	justify-items:self-start;
+			
+}
+.footer-content p{
+	
+	text-align: justify;
+	justify-items:self-start;
+	margin-right:10px;
+	 
+}
+.footer-content ul{
+	margin-top:10px;
+	justify-items:baseline;
+}
+.footer-content ul li{
+	
+	list-style-type:none;
+	
+	padding:2px;
+}
+.footer-content ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:200;
+	
+	color:#fff;
+}
+.f1{
+	
+	
+	margin-right:8px;
+	margin-top:22%;
+	margin-left:51%;
+	position:absolute;
+}
+.f1 input[type="email"] {
+  border: none;                    /* Remove all borders */
+  border-bottom: 1px solid #fff;   /* Add only bottom border */
+  width: 520px;
+  padding: 5px 0;                  /* Add some padding */
+  background: transparent;         /* Optional: remove background color*/
+  color: #fff;                     /* Optional: set text color */
+  outline: none;                   /* Optional: remove outline when focused */
+}
+.f1 h4{
+	margin-left:83%;
+	margin-top:-22px;
+	text-transform:uppercase;
+	
+}
+/* ------------------- Conteact  style end ------------------- */
+
+/* -------------------footer  style start ------------------- */
+
+
+footer{
+	text-align:center;
+	width:100%;
+	height:20px;
+	margin-top:30px;
+	align-items:center;
+	justify-items:center;
+}
+/* -------------------footer  image logo style start ------------------- */
+
+footer img{
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:#222;
+	border:none;
+	align-items:center;
+	justify-content:center;
+	margin-top:20px;
+	padding:5px;
+}
+/* -------------------footer  style end ------------------- */
+
+.active{
+	border-bottom:2px solid orange;
+	border-width:5px;
+	
+	
+	
+}
